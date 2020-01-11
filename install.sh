@@ -19,7 +19,7 @@ fi
 
 CODE_USER=$CODE_USER CODE_OPTIONS=$CODE_OPTIONS MAINPID='$MAINPID' envsubst < code-server.service > /lib/systemd/system/code-server.service
 systemctl stop code-server.service 2> /dev/null
-sleep 5
+sleep 10
 pkill code-server 2> /dev/null
 
 mkdir -p /opt/code-server
