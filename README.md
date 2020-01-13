@@ -12,7 +12,7 @@ It can receive options as environment variables.
 
 Example:
 ```sh
-$ sudo CODE_USER="root" CODE_OPTIONS="--auth none" CODE_VERSION="2.1692-vsc1.39.2" CODE_ARCH="linux-x86_64" ./install.sh
+$ sudo CODE_USER="$USER" CODE_OPTIONS="--auth none" CODE_VERSION="2.1692-vsc1.39.2" CODE_ARCH="linux-x86_64" ./install.sh
 ```
 
 All environment values are omittable.
